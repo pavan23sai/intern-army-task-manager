@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom right, #0d73c5, #0d8bc5);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #0e0101;
+  }
+  
+  .quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35rem;
+    max-width: 80%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.6rem 0.1rem rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  #question-container,
+  #result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #333;
+  }
+  
+  #answer-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .btn {
+    padding: 1rem 2rem;
+    background-color: #3282d8; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #0d73c5;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  #result-text {
+    font-size: 2rem;
+  }
+  
+  #restart-btn,
+  #start-btn {
+    margin-top: 2rem;
+    padding: 1.5rem 3rem;
+  }
+  
